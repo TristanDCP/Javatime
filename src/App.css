@@ -10,7 +10,7 @@
 .card-outline{
     border: 2px solid #7600d5;
     border-radius: 5px;
-    width: 40%;
+    width: 35%;
     height: 60%;
     text-align: center;
 }
@@ -31,6 +31,7 @@
     display: flex;
     justify-content: space-around;
 }
+
 .content-title{
     text-align: center;
     font-weight: 600;
@@ -42,6 +43,7 @@
     width: 100%;
     justify-content: space-between;
     text-align: center;
+    overflow: visible;
 }
 
 .male-picture{
@@ -89,4 +91,33 @@
     padding : 5px 0;
     font-weight: 600;
     width: 80%;
+}
+
+@media screen and (max-width: 930px) {
+    .card-outline {
+        width: 70%;
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .card-outline {
+        width: 90%;
+        display: block;
+    }
+}
+
+@media screen and (max-height: 900px) {
+    .card-outline {
+        height: 70%;
+        display: block;
+    }
+}
+
+@media screen and (max-height: 770px) {
+    .card-outline {
+        height: 80%;
+        display: block;
+    }
 }

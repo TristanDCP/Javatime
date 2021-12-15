@@ -32,8 +32,8 @@ const App = () => {
                             Lequel de ces deux avatars préférez-vous?
                         </div>
                         <div class="img">
-                            <img class="male-picture" src={MalePicture} alt="image d'homme"/>
-                            <img class="female-picture" src={FemalePicture} alt="image de femme"/>
+                            <img class="male-picture" src={MalePicture} alt="visage d'homme"/>
+                            <img class="female-picture" src={FemalePicture} alt="visage de femme"/>
                         </div>
                         <div class="divider"></div>
                         <div class="skin-line">
