@@ -21,5 +21,32 @@
 
 .title-text{
     color: white;
-    margin-top: 2em;
+    font-weight: 600 ;
+}
+
+.content-title{
+    text-align: center;
+}
+
+.img{
+    display: inline;
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.divider{
+    text-align: center;
+    vertical-align: middle;
+    border-top: 1px solid black;
+    width: 40%;
+}
+
+.button{
+    border: 1px solid #1b39e2;
+    border-radius: 16px;
+    width: 10%;
+    background-color: #1b39e2;
+    color: white;
+    text-align: center;
 }
