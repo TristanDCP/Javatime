@@ -4,49 +4,89 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #dde1e7;
 }
 
 .card-outline{
     border: 2px solid #7600d5;
-    border-radius: 2px;
+    border-radius: 5px;
     width: 40%;
-    height: 40%;
+    height: 60%;
+    text-align: center;
 }
 
 .card-title{
-    text-align: center;
     background-color: #7600d5;
-    height: 10%;
+    height: 6%;
 }
 
 .title-text{
     color: white;
     font-weight: 600 ;
+    font-size: large;
+    padding: 3px 0;
 }
 
+.container{
+    display: flex;
+    justify-content: space-around;
+}
 .content-title{
     text-align: center;
+    font-weight: 600;
+    margin: 2em 0;
 }
 
 .img{
     display: inline;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
+}
+
+.male-picture{
+    padding-right: 1em;
+}
+
+.female-picture{
+    padding-left: 1em;
 }
 
 .divider{
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 2px solid #95979a;
+    width: 80%;
+    margin-bottom: 1em;
+    margin-top: 3em;
+}
+
+.icone{
+    padding-right: 1em;
+}
+.skin-line{
     text-align: center;
-    vertical-align: middle;
-    border-top: 1px solid black;
-    width: 40%;
+    margin-bottom: 1.5em;
+}
+
+.shirt-line{
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.button-placement{
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 .button{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
     border: 1px solid #1b39e2;
     border-radius: 16px;
-    width: 10%;
     background-color: #1b39e2;
     color: white;
     text-align: center;
+    padding : 5px 0;
+    font-weight: 600;
+    width: 80%;
 }
